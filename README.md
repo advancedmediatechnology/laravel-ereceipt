@@ -5,7 +5,7 @@ Wrapper Laravel per Fiskaly eReceipt API.
 ## Installazione
 
 ```bash
-composer require yourvendor/laravel-ereceipt
+composer require advancedmediatechnology/laravel-ereceipt
 php artisan vendor:publish --tag=config
 ```
 

@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YourVendor\\EReceipt\\": "src/"
+            "advancedmediatechnology\\EReceipt\\": "src/"
         }
     },
     "extra": {
@@ -18,7 +18,7 @@
                 "advancedmediatechnology\\EReceipt\\EReceiptServiceProvider"
             ],
             "aliases": {
-                "EReceipt": "YourVendor\\EReceipt\\Facades\\EReceipt"
+                "EReceipt": "advancedmediatechnology\\EReceipt\\Facades\\EReceipt"
             }
         }
     }
