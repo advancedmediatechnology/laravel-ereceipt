@@ -1,0 +1,25 @@
+{
+    "name": "advancedmediatechnology/laravel-ereceipt",
+    "description": "Laravel wrapper for Fiskaly eReceipt API",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\EReceipt\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "advancedmediatechnology\\EReceipt\\EReceiptServiceProvider"
+            ],
+            "aliases": {
+                "EReceipt": "YourVendor\\EReceipt\\Facades\\EReceipt"
+            }
+        }
+    }
+}
